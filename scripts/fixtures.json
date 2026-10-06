@@ -1,0 +1,12 @@
+[
+  {
+    "file": "portrait.png",
+    "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/astronaut.png",
+    "sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5"
+  },
+  {
+    "file": "hands.jpg",
+    "url": "https://storage.googleapis.com/mediapipe-assets/right_hands.jpg",
+    "sha256": "4b5134daa4cb60465535239535f9f74c2842aba3aa5fd30bf04ef5678f93d87f"
+  }
+]

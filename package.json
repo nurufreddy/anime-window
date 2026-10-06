@@ -1,0 +1,38 @@
+{
+  "name": "anime-window",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "setup": "node scripts/setup.mjs",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:browser": "node scripts/browser-test.mjs",
+    "test:fixtures": "node scripts/fixtures.mjs",
+    "test:models": "node scripts/probe.mjs",
+    "test:flow": "node scripts/flow-test.mjs",
+    "format": "prettier --write src scripts tests docs README.md index.html vite.config.ts tsconfig.json package.json",
+    "test:fallback": "node scripts/fallback-test.mjs",
+    "test:comparison": "node scripts/compare-models.mjs"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.0.1",
+    "onnxruntime-web": "1.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.4",
+    "onnx-proto": "8.0.1",
+    "playwright": "1.63.0",
+    "prettier": "3.9.9",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.2"
+  },
+  "overrides": {
+    "onnx-proto": {
+      "protobufjs": "7.6.6"
+    }
+  }
+}

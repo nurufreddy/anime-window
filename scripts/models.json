@@ -1,0 +1,17 @@
+[
+  {
+    "file": "animegan.onnx",
+    "url": "https://raw.githubusercontent.com/josephrocca/anime-gan-v2-web/c46f6b02f5e4c3941fae5aca4473a1b58e807f90/anime-gan-v2.onnx",
+    "sha256": "d389e9ceddeca2a81aa6c6283c90a919a478f0c81762d3387261ec666a65ae61"
+  },
+  {
+    "file": "hand_landmarker.task",
+    "url": "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
+    "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1"
+  },
+  {
+    "file": "ghibli-c1.onnx",
+    "url": "https://github.com/TachibanaYoshino/AnimeGANv3_Portrait_Inference/releases/download/1.0/AnimeGANv3_large_Ghibli_c1_e299.onnx",
+    "sha256": "ad950eabe2a556424b1cacf0f4b7847777ea44033482e673771da878054c1e37"
+  }
+]

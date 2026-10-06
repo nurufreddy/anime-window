@@ -5,3 +5,7 @@ dist/
 .env.*
 !.env.example
 .DS_Store
+public/models/*.onnx
+public/models/*.task
+public/vendor/
+artifacts/
