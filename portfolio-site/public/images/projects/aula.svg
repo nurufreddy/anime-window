@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22281d"/><stop offset="1" stop-color="#56634a"/></linearGradient></defs>
+<rect width="100%" height="100%" fill="url(#g)"/>
+<g stroke="#f4f3ef" stroke-opacity=".18"><line x1="0" y1="0" x2="1200" y2="800"/><line x1="1200" y1="0" x2="0" y2="800"/></g>
+<text x="24" y="62" font-family="ui-monospace,monospace" font-size="38" fill="#f4f3ef" fill-opacity=".7">REPLACE /images/projects/aula — 1200×800</text></svg>
